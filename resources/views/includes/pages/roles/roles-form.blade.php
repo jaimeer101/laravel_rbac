@@ -75,7 +75,7 @@
                         @enderror
                     </div>
                     <div class="form-group">
-                        <label for="chkbox_permissions">Roles</label>
+                        <label for="chkbox_permissions">Permissions</label>
                         <div class="form-inline">
                             @foreach ($permissionsList as $permission)
                                @php

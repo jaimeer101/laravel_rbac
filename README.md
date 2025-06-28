@@ -22,3 +22,23 @@ php artisan db:seed --class=RolesPermissionsSeeder
 
 8. Seed AdminUsers Data run command below <br />
 php artisan db:seed --class=AdminUsersSeeder 
+
+9. Run the laravel project <br />
+php artisan serve
+
+10. Go to the page, you should be redirected in the login page
+
+11. Input username and password <br />
+username: admin <br />
+password: password <br />
+
+12. Now you can test the RBAC
+# Notes
+1. Admin usertype is the only one that can create roles
+2. Base on the permission set in the roles, thats the only action that can be done in the users page
+3. You can create Roles but no permission
+4. If roles has no permission the user cannot access the users page
+
+
+
+
