@@ -5,24 +5,20 @@
 4. Update the database connection in the .env 
 
 DB_CONNECTION=mysql <br />
-DB_HOST="<database server name>"
-DB_PORT="<database port>"
-DB_DATABASE="<database name>"
-DB_USERNAME="<database username>"
-DB_PASSWORD="<database password>"
+DB_HOST="<database server name>" <br />
+DB_PORT="<database port>" <br />
+DB_DATABASE="<database name>" <br />
+DB_USERNAME="<database username>" <br />
+DB_PASSWORD="<database password>" <br />
 
-5. Run migration 
+5. Run migration <br />
 php artisan migrate 
 
-6. Seed Roles and Permissions Data (Default Value) run command below 
+6. Seed Roles and Permissions Data (Default Value) run command below <br />
 php artisan db:seed 
 
-7. Seed Roles Permission Data run command below 
+7. Seed Roles Permission Data run command below <br />
 php artisan db:seed --class=RolesPermissionsSeeder 
 
-8. Seed AdminUsers Data run command below 
+8. Seed AdminUsers Data run command below <br />
 php artisan db:seed --class=AdminUsersSeeder 
-
-run composer install
-run npm install
-run npm run dev
