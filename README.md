@@ -1,7 +1,7 @@
 ## System Requirements
-Laravel Version : 12
-PHP : 8.2
-Database : MySQL
+Laravel Version : 12 <br/>
+PHP : 8.2 <br/>
+Database : MySQL <br/>
 ## Instructions
 1. Clone the project in your local
 2. create database "any name"
