@@ -21,28 +21,37 @@ DB_PASSWORD="<database password>" <br />
 npm install <br />
 composer install <br />
 
-5. Run migration <br />
+8. Run migration <br />
 php artisan migrate 
 
-6. Seed Roles and Permissions Data (Default Value) run command below <br />
+9. Seed Roles and Permissions Data (Default Value) run command below <br />
 php artisan db:seed 
 
-7. Seed Roles Permission Data run command below <br />
+10. Seed Roles Permission Data run command below <br />
 php artisan db:seed --class=RolesPermissionsSeeder 
 
-8. Seed AdminUsers Data run command below <br />
+11. Seed AdminUsers Data run command below <br />
 php artisan db:seed --class=AdminUsersSeeder 
 
-9. Run the laravel project <br />
+12. Run key generation <br /> 
+php artisan key:generate
+
+13. Clear Cache <br /> 
+config:cache
+
+14. Link css in the storage/public in the assets
+php artisan storage:link
+
+15. Run the laravel project <br />
 php artisan serve
 
-10. Go to the page, you should be redirected in the login page
+16. Go to the page, you should be redirected in the login page
 
-11. Input username and password <br />
+16. Input username and password <br />
 username: admin <br />
 password: password <br />
 
-12. Now you can test the RBAC
+18. Now you can test the RBAC
 # Notes
 1. Admin usertype is the only one that can create roles
 2. Base on the permission set in the roles, thats the only action that can be done in the users page
