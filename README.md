@@ -4,7 +4,7 @@
 3. Copy the .env.example to .env
 4. Update the database connection in the .env 
 
-DB_CONNECTION=mysql 
+DB_CONNECTION=mysql <br />
 DB_HOST="<database server name>"
 DB_PORT="<database port>"
 DB_DATABASE="<database name>"
