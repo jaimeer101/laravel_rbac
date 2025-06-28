@@ -15,6 +15,12 @@ DB_DATABASE="<database name>" <br />
 DB_USERNAME="<database username>" <br />
 DB_PASSWORD="<database password>" <br />
 
+5. Open the cmd or command line <br />
+6. Go to the projects folder <br />
+7. Run <br/ >
+npm install <br />
+composer install <br />
+
 5. Run migration <br />
 php artisan migrate 
 
