@@ -22,3 +22,7 @@ php artisan db:seed --class=RolesPermissionsSeeder
 
 8. Seed AdminUsers Data run command below 
 php artisan db:seed --class=AdminUsersSeeder 
+
+run composer install
+run npm install
+run npm run dev
